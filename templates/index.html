@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+  </head>
+  <body>
+    <h1>Movie Recommendation</h1>
+    <form action="{% url 'result' %}">
+      {% csrf_token %}
+      <p>Movie Name:</p>
+      <input type="text" name="mName">
+      <br>
+      <input type="submit" value='Get Recommendations'>
+    </form>
+  </body>
+</html>
