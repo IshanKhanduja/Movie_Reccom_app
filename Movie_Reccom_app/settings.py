@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-0j=vtw%x%ofg&h1*wh0am747$*ou(0@_*69#8s9x!qpi7kg5v&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '<site_name>.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'movierec.herokuapp.com']
 
 
 # Application definition
@@ -79,7 +79,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Movie_Reccom_app.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
